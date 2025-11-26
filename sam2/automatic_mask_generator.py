@@ -112,6 +112,8 @@ class SAM2AutomaticMaskGenerator:
                 crop_n_layers,
                 crop_n_points_downscale_factor,
             )
+            print(self.point_grids)
+            
         elif point_grids is not None:
             self.point_grids = point_grids
         else:
